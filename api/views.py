@@ -18,7 +18,7 @@ def home(request):
             'track': track,
             'utc_time': utc_time,
             'current_day': current_day,
-            'github_file_url':'',
-            'github_repo_url':'',
+            'github_file_url':'https://github.com/fsp3012/hngbackendtask1/blob/main/api/views.py',
+            'github_repo_url':'https://github.com/fsp3012/hngbackendtask1',
             'status_code':200
         })
