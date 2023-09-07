@@ -15,9 +15,9 @@ def home(request):
 
         return Response({
             'slack_name': slack_name,
-            'track': track,
-            'utc_time': utc_time,
             'current_day': current_day,
+            'utc_time': utc_time,
+            'track': track,
             'github_file_url':'https://github.com/fsp3012/hngbackendtask1/blob/main/api/views.py',
             'github_repo_url':'https://github.com/fsp3012/hngbackendtask1',
             'status_code':200
